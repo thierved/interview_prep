@@ -1,7 +1,7 @@
-from day2 import flipAndInvertImage
+from day3 import sortArrayByParity
 
 
 if __name__ == "__main__":
    print('===')
-   result =  flipAndInvertImage([[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]])
+   result = sortArrayByParity([3,1,2,4])
    print(result)
