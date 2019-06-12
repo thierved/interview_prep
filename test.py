@@ -1,5 +1,5 @@
-from day5 import toLowerCase
+from day6 import repeatedNTimes
 
 if __name__ == "__main__":
-   result = toLowerCase("aAAbbbb")
+   result =repeatedNTimes([1,2,3,3])
    print(result)
