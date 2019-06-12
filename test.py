@@ -1,5 +1,5 @@
-from day4 import numJewelsInStones
+from day5 import toLowerCase
 
 if __name__ == "__main__":
-   result = numJewelsInStones("aA", "aAAbbbb")
+   result = toLowerCase("aAAbbbb")
    print(result)
