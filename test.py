@@ -1,5 +1,4 @@
-from day6 import repeatedNTimes
-
+from day7 import reverseString
 if __name__ == "__main__":
-   result =repeatedNTimes([1,2,3,3])
+   result = reverseString([1,2,3,3])
    print(result)
