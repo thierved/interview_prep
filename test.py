@@ -1,4 +1,4 @@
-from day7 import reverseString
+from day9 import sortedSquares
 if __name__ == "__main__":
-   result = reverseString([1,2,3,3])
+   result = sortedSquares([-4,-1,0,3,10])
    print(result)
